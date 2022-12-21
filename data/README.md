@@ -1,5 +1,7 @@
 # World Cup Analysis: Data sets overview
 
+## For **qatar_world_cup_goals.csv** and **historic_world_cup_goals.csv**
+
 All the information was collected from Wikipedia and FIFA sites:
 - https://www.fifa.com/
 - https://en.wikipedia.org/wiki/2018_FIFA_World_Cup
@@ -39,5 +41,24 @@ Both data sets have the same columns:
 - cummulative_number_of_matches (float) - cumulative number of matches during the World Cup
 - average_scored_goals (float) - average score goals during the World Cup. 
 
-The data sets are available on my GitHub at: https://github.com/hanada-stephan/fifa_world_cup_analysis .  
+
+## For **qatar_world_cup_goal_times.csv**
+
+All the information was collected from:
+- https://en.wikipedia.org/wiki/2022_FIFA_World_Cup
+- https://www.fifa.com/fifaplus/en/home
+
+The columns are:
+
+- year (int) - the year of the FIFA World Cup;
+- stage (str) - the stage where the game took place;
+- team_1 (str) - team number one;
+- team_2 (str) - team number two;
+- goals_team_1 (int) - goals scored by team number 1;
+- goals_team_2 (int) - goals scored by team number 2;
+- goal_number (int) - the nth goal scored at that specific match;
+- time (int) - the time that the nth goal was scored;
+- half (str) - which game half the goal was scored. Could be "first", "second", "first extra time" and "second extra time". 
+
+
 Feel free to reach out on [Linkedin](https://www.linkedin.com/in/stephan-hanada/) for corrections, questions, and feedback.
